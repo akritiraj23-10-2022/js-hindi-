@@ -71,3 +71,39 @@ let gameCounter =100
 gameCounter++;
 console.log(gameCounter);
 
+let num4, num5, num6
+num1 = num2 = num3 =10+10
+
+let gameCounters=100;
+++gameCounters;
+console.log(gameCounters);
+
+// Increment Operater
+let x = 7;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+
+// Expected output : "x:8, y:7"
+
+let a = 3;
+let b = a++;
+console.log(`a:${a}, b:${b}`);
+// Expected  output : "a:4, b:3"
+
+// Postfix increment 
+
+let c = 3;
+let d = a++;
+console.log(`c:${c}, d:${d}`);
+
+//Expected output:- "c:3, d:3"  
+
+let e = 5n;
+const f = e++;
+console.log(`e:${e}, f:${f}`);
+
+//Expected output:- e:6n, f:5n
+
+
+
